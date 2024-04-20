@@ -1,0 +1,51 @@
+# Ignorar arquivos e pastas gerados pelo Visual Studio
+.vs/
+bin/
+obj/
+
+# Ignorar arquivos de configuração do Visual Studio
+*.user
+*.suo
+*.sln.docstates
+
+# Ignorar arquivos de compilação do .NET
+bin/
+obj/
+
+# Ignorar arquivos de saída de build
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Ignorar Arquivos temporários do Visual Studio Code
+.vscode/
+
+# Ignorar Arquivos de usuário do Visual Studio Code
+*.vscode/
+
+# Ignorar Arquivos de cache do Visual Studio Code
+.vscode/
+
+# Ignorar Arquivos do tipo .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/bin
+**/obj
+
+# Ignorar Arquivos de configuração do .NET Core
+*.swp
+*~
+/src/Commons/CloudSuite.Commons/obj
+/src/Commons/CloudSuite.Commons/obj
+/src/Modules/CloudSuite.Modules.HR.Domain/obj
